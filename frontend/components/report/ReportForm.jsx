@@ -367,7 +367,8 @@ export default function ReportForm() {
         setStatus("Определяем адрес по координатам...");
         try {
           const r = await fetch(
-            `/api/geocode?lat=${latitude}&lon=${longitude}`
+            `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${latitude}&lon=${longitude}`,
+            { headers: { "User-Agent": "BicyclePatrol/1.0" } }
           );
           if (r.ok) {
             const json = await r.json();
