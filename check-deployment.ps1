@@ -3,7 +3,7 @@
 $ErrorActionPreference = "Continue"
 
 Write-Host "========================================" -ForegroundColor Cyan
-Write-Host "   Portfolio Deployment Checklist" -ForegroundColor Cyan
+Write-Host "   tsodd-bicyclepatrol Deployment Checklist" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 

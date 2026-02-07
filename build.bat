@@ -1,10 +1,10 @@
 @echo off
 chcp 65001 >nul
-title Portfolio - Production Build
+title tsodd-bicyclepatrol - Production Build
 
 echo.
 echo ═══════════════════════════════════════════════════════════
-echo            Portfolio Production Build
+echo            tsodd-bicyclepatrol Production Build
 echo ═══════════════════════════════════════════════════════════
 echo.
 

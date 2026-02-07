@@ -1,10 +1,10 @@
 @echo off
 chcp 65001 >nul
-title Portfolio - Development Server
+title tsodd-bicyclepatrol - Development Server
 
 echo.
 echo ═══════════════════════════════════════════════════════════
-echo            Portfolio Development Server
+echo            tsodd-bicyclepatrol Development Server
 echo ═══════════════════════════════════════════════════════════
 echo.
 

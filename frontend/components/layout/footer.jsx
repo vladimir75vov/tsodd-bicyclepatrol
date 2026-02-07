@@ -38,7 +38,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-10">
           {/* Brand */}
           <div className="flex flex-col items-center md:items-start">
-            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg flex items-center justify-center font-bold text-white mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-green-500 rounded-lg flex items-center justify-center font-bold text-white mb-4">
               VB
             </div>
             <p className="text-[var(--text-muted)] text-sm">{t("footer.developer")}</p>

@@ -33,10 +33,10 @@ function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-b from-background/10 to-background/6 backdrop-blur-sm border-b border-gray-700/10">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-purple-500 rounded-lg flex items-center justify-center font-bold text-white group-hover:shadow-lg group-hover:shadow-blue-500/50 transition-all duration-300">
+          <div className="w-10 h-10 bg-gradient-to-r from-blue-400 to-green-500 rounded-lg flex items-center justify-center font-bold text-white group-hover:shadow-lg group-hover:shadow-blue-500/50 transition-all duration-300">
             VB
           </div>
-          <span className="font-bold text-lg bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent hidden sm:inline">
+          <span className="font-bold text-lg bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent hidden sm:inline">
             {t("hero.titleName")}
           </span>
         </Link>

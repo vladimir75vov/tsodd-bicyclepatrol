@@ -15,7 +15,7 @@ export const metadata = {
   title: "Vladimir Budaev - Full Stack Developer",
   description: "Full Stack Developer | React | Next.js | Node.js | Digital Creator",
   keywords:
-    "developer, portfolio, react, nextjs, fullstack, javascript, typescript, frontend, backend, web development, moscow developer",
+    "developer, tsodd-bicyclepatrol, react, nextjs, fullstack, javascript, typescript, frontend, backend, web development, moscow developer",
   authors: [{ name: "Vladimir Budaev" }],
   creator: "Vladimir Budaev",
   publisher: "Vladimir Budaev",
@@ -36,11 +36,11 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: ["ru_RU"],
-    siteName: "Vladimir Budaev Portfolio",
-    url: "https://vladimir75vov.github.io/portfolio",
+    siteName: "Vladimir Budaev tsodd-bicyclepatrol",
+    url: "https://vladimir75vov.github.io/tsodd-bicyclepatrol",
     images: [
       {
-        url: "/portfolio/images/og-image.svg",
+        url: "/tsodd-bicyclepatrol/images/og-image.svg",
         width: 1200,
         height: 630,
         alt: "Vladimir Budaev - Full Stack Developer",
@@ -52,21 +52,21 @@ export const metadata = {
     title: "Vladimir Budaev - Full Stack Developer",
     description: "Full Stack Developer | React | Next.js | Node.js | Digital Creator",
     creator: "@vladimir75vov",
-    images: ["/portfolio/images/og-image.svg"],
+    images: ["/tsodd-bicyclepatrol/images/og-image.svg"],
   },
   verification: {
     google: "your-google-verification-code",
     yandex: "your-yandex-verification-code",
   },
   category: "technology",
-  applicationName: "Vladimir Budaev Portfolio",
+  applicationName: "Vladimir Budaev tsodd-bicyclepatrol",
   referrer: "origin-when-cross-origin",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://vladimir75vov.github.io/portfolio"),
+  metadataBase: new URL("https://vladimir75vov.github.io/tsodd-bicyclepatrol"),
   alternates: {
     canonical: "/",
     languages: {
@@ -75,10 +75,10 @@ export const metadata = {
     },
   },
   icons: {
-    icon: [{ url: "/portfolio/favicon.ico" }, { url: "/portfolio/icon.png", type: "image/png", sizes: "32x32" }],
-    apple: [{ url: "/portfolio/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    icon: [{ url: "/tsodd-bicyclepatrol/favicon.ico" }, { url: "/tsodd-bicyclepatrol/icon.png", type: "image/png", sizes: "32x32" }],
+    apple: [{ url: "/tsodd-bicyclepatrol/apple-icon.png", sizes: "180x180", type: "image/png" }],
   },
-  manifest: "/portfolio/manifest.json",
+  manifest: "/tsodd-bicyclepatrol/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",

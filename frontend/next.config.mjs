@@ -2,8 +2,8 @@
 const nextConfig = {
     reactStrictMode: true,
     output: 'export',  // Статический экспорт для GitHub Pages
-    basePath: '/tsodd-bicyclepatrol',  // Для репозитория vladimir75vov.github.io/portfolio
-    assetPrefix: '/tsodd-bicyclepatrol',  // Для репозитория vladimir75vov.github.io/portfolio
+    basePath: '/tsodd-bicyclepatrol',  // Для репозитория vladimir75vov.github.io/tsodd-bicyclepatrol
+    assetPrefix: '/tsodd-bicyclepatrol',  // Для репозитория vladimir75vov.github.io/tsodd-bicyclepatrol
     images: {
         unoptimized: true,  // Отключение оптимизации изображений для статического экспорта
     },

@@ -95,8 +95,8 @@ ${formData.message}
             {/* Сезонные декорации */}
             {christmasMode && (
               <>
-                <Image src="/portfolio/images/Christmas tree.png" alt="Christmas tree" width={100} height={100} className="absolute -top-10 left-[10%] opacity-25 pointer-events-none select-none brightness-150 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] transition-transform duration-700 ease-out" style={{ transform: `translate(${tilt.x * 0.6}px, ${tilt.y * 0.6}px)` }} unoptimized />
-                <Image src="/portfolio/images/Christmas tree.png" alt="Christmas tree" width={80} height={80} className="absolute -top-5 right-[15%] opacity-20 pointer-events-none select-none brightness-150 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] transition-transform duration-700 ease-out" style={{ transform: `translate(${tilt.x * 0.4}px, ${tilt.y * 0.4}px)` }} unoptimized />
+                <Image src="/tsodd-bicyclepatrol/images/Christmas tree.png" alt="Christmas tree" width={100} height={100} className="absolute -top-10 left-[10%] opacity-25 pointer-events-none select-none brightness-150 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] transition-transform duration-700 ease-out" style={{ transform: `translate(${tilt.x * 0.6}px, ${tilt.y * 0.6}px)` }} unoptimized />
+                <Image src="/tsodd-bicyclepatrol/images/Christmas tree.png" alt="Christmas tree" width={80} height={80} className="absolute -top-5 right-[15%] opacity-20 pointer-events-none select-none brightness-150 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)] transition-transform duration-700 ease-out" style={{ transform: `translate(${tilt.x * 0.4}px, ${tilt.y * 0.4}px)` }} unoptimized />
               </>
             )}
             {autumnMode && (
@@ -105,7 +105,7 @@ ${formData.message}
                 <span className="absolute -top-5 right-[15%] text-6xl opacity-20 pointer-events-none select-none transition-transform duration-700 ease-out" style={{ transform: `translate(${tilt.x * 0.4}px, ${tilt.y * 0.4}px)` }}>🍁</span>
               </>
             )}
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-green-500 bg-clip-text text-transparent">
               {lang === "en" ? "Get In Touch" : "Свяжитесь со мной"}
             </h1>
             <p className="text-lg text-[var(--text-secondary)]">
@@ -168,7 +168,7 @@ ${formData.message}
 
                 <button
                   type="submit"
-                  className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg hover:scale-[1.02] transition-all duration-200 mt-2"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-green-600 text-white font-semibold rounded-lg hover:scale-[1.02] transition-all duration-200 mt-2"
                 >
                   {lang === "en" ? "Send" : "Отправить"}
                 </button>

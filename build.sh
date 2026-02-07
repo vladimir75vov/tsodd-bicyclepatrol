@@ -9,7 +9,7 @@ NC='\033[0m' # No Color
 
 echo ""
 echo "═══════════════════════════════════════════════════════════"
-echo "           Portfolio Production Build"
+echo "           tsodd-bicyclepatrol Production Build"
 echo "═══════════════════════════════════════════════════════════"
 echo ""
 
